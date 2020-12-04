@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import portfolio from './components/portfolio/Folio MM 80.pdf'
-import p8 from './components/portfolio/P8.jpg'
+
 
 
 function App() {
