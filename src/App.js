@@ -5,9 +5,7 @@ import portfolio from './components/portfolio/Folio MM 80.pdf'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <embed src={require(portfolio)} width="100%" height="2100px" />
-      </header>
+      <embed src={portfolio} id="portfolio"/>
     </div>
   );
 }
