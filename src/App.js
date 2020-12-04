@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Iframe from 'react-iframe'
 import portfolio from './components/portfolio/Folio MM 80.pdf'
-
+import p8 from './components/portfolio/P8.jpg'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <embed src="residentm.com/static/media/Folio MM 80.pdf" id="portfolio"/>
+      <embed src={p8} id="portfolio"/>
     </div>
   );
 }
