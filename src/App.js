@@ -1,22 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import portfolio from './components/portfolio/Folio MM 80.pdf'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <embed src={portfolio} width="100%" height="2100px" />
       </header>
     </div>
   );
