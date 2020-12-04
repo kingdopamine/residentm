@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <Iframe url={portfolio} id="portfolio"/>
+      <embed src="residentm.com/static/media/Folio MM 80.pdf" id="portfolio"/>
     </div>
   );
 }
