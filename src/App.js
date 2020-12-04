@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <embed src={p8} id="portfolio"/>
+      <embed src={portfolio} id="portfolio"/>
     </div>
   );
 }
