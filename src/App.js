@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <embed src={portfolio} width="100%" height="2100px" z-index="1"/>
+        <embed src={require(portfolio)} width="100%" height="2100px" />
       </header>
     </div>
   );
