@@ -5,7 +5,7 @@ import portfolio from './components/portfolio/Folio MM 80.pdf'
 function App() {
   return (
     <div className="App">
-      <embed src={portfolio} id="portfolio"/>
+      <iframe src={portfolio} id="portfolio"/>
     </div>
   );
 }
