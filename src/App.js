@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <embed src={portfolio} id="portfolio"/>
+      <embed src="/assets/Folio MM 80.pdf" id="portfolio"/>
     </div>
   );
 }
